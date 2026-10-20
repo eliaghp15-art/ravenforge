@@ -42,6 +42,8 @@ It contains **no** Minecraft, Lunar or RavenB4 code. You supply the two jars you
 * Lunar Client with 1.8.9 installed (the `offline/multiver` directory).
 * A JDK - `build.sh` needs `javac`, and scripts are compiled at runtime by a JDK found on
   `JAVA_HOME`, PATH or in `Program Files`.
+* Python 3 on PATH as `python` (or `python3`) - the redirect, script-compiler and target
+  checks are Python.
 * `lunar-agent.jar` and the Forge `RavenB4.jar`, which you already need to run the mod.
 
 ## Build
