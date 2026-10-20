@@ -136,11 +136,12 @@ final class JavacProcessCompiler implements JavaCompiler {
         if (javaHome != null && !javaHome.isEmpty()) {
             list.add(new File(new File(javaHome, "bin"), executable).getAbsolutePath());
         }
+        String programFiles = "C:" + File.separator + "Program Files" + File.separator;
         for (String root : new String[]{
-                "C:\\\\Program Files\\\\Eclipse Adoptium",
-                "C:\\\\Program Files\\\\Java",
-                "C:\\\\Program Files\\\\Microsoft",
-                "C:\\\\Program Files\\\\Zulu"}) {
+                programFiles + "Eclipse Adoptium",
+                programFiles + "Java",
+                programFiles + "Microsoft",
+                programFiles + "Zulu"}) {
             File[] children = new File(root).listFiles();
             if (children == null) {
                 continue;
