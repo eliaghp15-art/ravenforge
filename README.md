@@ -151,5 +151,15 @@ client.
 
 ## License
 
-MIT - see [LICENSE](LICENSE). No third-party client, game or launcher code is included or
-distributed here.
+[PolyForm Noncommercial 1.0.0](LICENSE) - source-available, not open source.
+
+You may read, build, run, modify and share this for any noncommercial purpose: personal use,
+study, hobby projects, research, and use by noncommercial organizations. You may **not** sell
+it, sell builds or derivatives of it, bundle it into a paid product or service, or charge for
+support, hosting or distribution of it. Commercial use needs written permission from the
+copyright holder.
+
+This covers only the code in this repository. The jars it is built against - Lunar Client, the
+Forge `RavenB4` build, and the `lunar-agent.jar` that bootstraps the JVM agent - are not
+distributed here and remain under their own terms. No third-party client, game or launcher code
+is included or distributed here.
