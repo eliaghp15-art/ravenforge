@@ -1,0 +1,23 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "ravenbridge",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "RavenBootstrapMixin",
+    "RavenTickMixin",
+    "RavenRenderMixin",
+    "RavenChatMixin",
+    "RavenAttackMixin",
+    "RavenLivingMixin",
+    "RavenWorldMixin",
+    "RavenGuiInputMixin",
+    "RavenPlayerRenderMixin",
+    "RavenLivingRenderMixin",
+    "RavenUseItemMixin",
+    "RavenBlockHighlightMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
