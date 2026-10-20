@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Premain-Class: ravenbridge.Agent
+Agent-Class: ravenbridge.Agent
+Can-Retransform-Classes: true
+Can-Redefine-Classes: false

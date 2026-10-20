@@ -1,0 +1,11 @@
+# build output
+build/
+*.jar
+*.class
+
+# editor / OS noise
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
