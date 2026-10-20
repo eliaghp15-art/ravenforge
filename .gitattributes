@@ -1,0 +1,3 @@
+# The build is driven by bash and python; a CRLF checkout makes build.sh fail on its
+# shebang and every python heredoc unusable. Keep the working tree LF everywhere.
+* text=auto eol=lf
